@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Ubuntu Art Village',
       debugShowCheckedModeBanner: false,
-      theme: AppTheme.darkTheme,
+      theme: AppTheme.theme, // Updated to use the new light theme
       initialRoute: '/login',
       routes: {
         '/': (context) => const LoginScreen(), // Default route
